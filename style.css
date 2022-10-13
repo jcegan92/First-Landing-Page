@@ -1,0 +1,165 @@
+body, html { 
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: darkslategray;
+}
+body {
+    background-color: black;
+}
+header,
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.fixed-width {
+    width: 1400px;
+}
+.header-holder {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    color: lightpink;
+}
+div .menu-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 40%;
+}
+.menu-item {
+    color: lemonchiffon;
+    font-family: "Droid Sans Mono Slashed", monospace;
+}
+
+.banner-holder {
+    border: 2px dotted black;
+    color: darkseagreen;
+    background-color: darkslategrey;
+
+}
+#margins {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 80px;
+}
+.blockleft {
+    display: flex;
+    flex-basis: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#sign-up-button,
+#end-button{
+    padding: 10px;
+    display: inline-block;
+    background: aquamarine;
+    font-family: "DejaVu Sans", sans-serif;
+    color: darkslategrey;
+}
+.blockright {
+    display: flex;
+    align-self: stretch;
+    flex-basis: 50%;
+    background-image: url("images/as-ball.jpg");
+    background-position: center;
+}
+.pages-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: honeydew;
+}
+.img-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 40px;
+}
+.bg-img {
+    border: black dotted 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.fun-text {
+    width: 100px;
+}
+.text-with-img {
+    border: black dotted 2px;
+    width: 200px;
+    height: 200px;
+}
+
+#bg0 {
+    background-image: url("images/as-closeup.jpg");
+    background-size: 400px auto;
+    background-position: center;
+}
+#bg1 {
+    background-image: url("images/as-friends.png");
+    background-size: 400px auto;
+    background-position: center;
+}
+#bg2 {
+    background-image: url("images/as-mini.jpg");
+    background-size: 400px auto;
+    background-position: center;
+}
+#bg3 {
+    background-image: url("images/as-puppy.jpg");
+    background-size: 400px auto;
+    background-position: center;
+}
+.quote-holder {
+    color: darkslategrey;
+    background-color: azure;
+}
+#quote-margin {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 100px;
+    align-items: flex-end;
+}
+
+.sign-up-holder {
+    background-color: honeydew;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#holder {
+    width: 700px;
+    display: flex;
+    margin: 40px 60px;
+    padding: 20px;
+    background-color: darkslategrey;
+    color: honeydew;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#text-holder {
+    flex-shrink: 2;
+}
+
+#footer-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: darkslategrey;
+    color: honeydew;
+}
+
+
+
